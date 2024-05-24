@@ -30,6 +30,6 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
-          platforms: linux/x64/v7
+          platforms: linux/amd64/v7
           push: true
           tags: arty0mflv/ci-cdworkflow:latest
