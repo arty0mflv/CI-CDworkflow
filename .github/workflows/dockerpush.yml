@@ -32,4 +32,4 @@ jobs:
           context: .
           platforms: linux/arm/v7
           push: true
-          tags: arty0mflv/CI-CDworkflow:latest
+          tags: arty0mflv/ci-cdworkflow:latest
